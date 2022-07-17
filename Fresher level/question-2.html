@@ -1,0 +1,41 @@
+<!-- why we have two type primitive and non primitive -->
+<!-- primitive data types can only store only a single value .To store multiple and complex values ,non-primitive data types are used -->
+<!-- Example => 1.Object and 2.Array -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+ <script>
+
+    // Collection of data in key-value pairs
+    var result={
+        firsname:'vivek',
+        lastname:'Gupta',
+        fullname:function(){
+
+            console.log(`this is fullname of user => ${result.firsname} ${result.lastname}`);
+        }
+    }
+
+    console.log(result.lastname);
+    console.log(result.firsname);
+    console.log(result.fullname());
+
+    // Collection of data as an ordered list
+    var array=['vivek','gupta','vivek gupta',['vevek1','vivek2','vivek3']];
+    console.log(array[3][2]);
+
+
+
+ </script>
+    
+</body>
+</html>
