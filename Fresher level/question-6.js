@@ -7,6 +7,8 @@ let num1=71;
  num1=72;
 console.log(num1);
 
+
+
 // we only update their value but don't redeclare values
 // we apply hoasting concept 
 var num=10;
